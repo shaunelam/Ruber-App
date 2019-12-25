@@ -1,0 +1,107 @@
+
+#header-img {
+  width: 100px;
+  height: 100px;
+}
+
+#header-title-content {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#title-text {
+  font-weight: 900;
+  padding-top: 20px;
+}
+
+#nav-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center
+}
+
+.nav-btn {
+  margin: 20px 10px;
+}
+
+.input-form {
+  border: 1px solid black;
+}
+#form-title-content {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#form-img {
+  width: 50px;
+  height:50px;
+  margin-bottom:10px;
+  margin-right: 10px;
+}
+#form-title {
+  text-align: center;
+}
+
+#form-content {
+  border: 1px black solid;
+  border-radius: 5px;
+  padding: 10px;
+  background-image: linear-gradient(to top right, rgb(255, 151, 92),rgb(255, 56, 56));
+}
+
+#form-inner-content{
+  margin: 70px 25px;
+}
+
+#datalist-content {
+  border: 1px black solid;
+  border-radius: 5px;
+  padding: 10px;
+  background-image: linear-gradient(to top right, rgb(255, 151, 92),rgb(255, 56, 56));
+}
+
+.submit-button {
+  float: right;
+  border: 1px solid black;
+}
+
+#datalist-data {
+  margin: 10px;
+}
+#datalist-title-content {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+#datalist-title {
+  text-align: center;
+}
+#datalist-img {
+  width: 50px;
+  height:50px;
+  margin-bottom:10px;
+  margin-right: 10px;
+}
+.datalist-container {
+  border-bottom: 1px black solid;
+  padding: 5px;
+}
+
+.delete-button {
+  float: right;
+  padding: .25rem .60rem;
+  border: 1px solid black;
+}
+
+.update-button {
+  float: right;
+  border: 1px solid black;
+}
